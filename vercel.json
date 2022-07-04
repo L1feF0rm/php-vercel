@@ -7,10 +7,10 @@
   },
   "routes": [{
     "src": "/(.*).html",
-    "dest": "/public/$1.html"
+    "dest": "public/$1.html"
   }, {
     "src": "/(css|js)/(.*)",
-    "dest": "/public/$1/$2"
+    "dest": "public/$1/$2"
   }, {
     "src": "/(.*)",
     "dest": "/api/index.php"
