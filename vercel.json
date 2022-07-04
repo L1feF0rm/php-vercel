@@ -7,7 +7,7 @@
   },
   "routes": [{
     "src": "/(.*).html",
-    "dest": "public/$1.html",
+    "dest": "static/$1.html",
     "methods": ["GET"]
   }, {
     "src": "/(css|js)/(.*)",
