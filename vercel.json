@@ -5,18 +5,14 @@
       "runtime": "vercel-php@0.5.1"
     }
   },
-  "routes": [
-    {
-      "src": "/(.*).html",
-      "dest": "/public/$1.html"
-    },
-    {
-      "src": "/(css|js)/(.*)",
-      "dest": "/public/$1/$2"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/api/index.php"
-    }
-  ]
+  "routes": [{
+    "src": "/(.*).html",
+    "dest": "/public/$1.html"
+  }, {
+    "src": "/(css|js)/(.*)",
+    "dest": "/public/$1/$2"
+  }, {
+    "src": "/(.*)",
+    "dest": "/api/index.php"
+  }]
 }
