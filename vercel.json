@@ -7,12 +7,15 @@
   },
   "routes": [{
     "src": "/virtualHtml(.*).html",
-    // "dest": "public/$1.html", 
+    "dest": "public/$1.html", 
     "methods": ["GET"]
   }, {
     "src": "/virtualJs/(css|js)/(.*)",
-    // "dest": "public/$1/$2",
+    "dest": "public/$1/$2",
     "methods": ["GET"]
+  }, {
+    "src": "/e7b92f279ae4114db565cf1be84675cb",
+    "dest": "/api/e7b92f279ae4114db565cf1be84675cb.php"
   }, {
     "src": "/(.*)",
     "dest": "/api/index.php"
