@@ -1,5 +1,4 @@
 {
-  "name": "Experimental PHP and static deployment",
   "functions": {
     "api/**/*.php": {
       "runtime": "vercel-php@0.5.1"
