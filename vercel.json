@@ -7,11 +7,11 @@
   },
   "routes": [{
     "src": "/virtualHtml(.*).html",
-    "dest": "public/$1.html", 
+    // "dest": "public/$1.html", 
     "methods": ["GET"]
   }, {
     "src": "/virtualJs/(css|js)/(.*)",
-    "dest": "public/$1/$2",
+    // "dest": "public/$1/$2",
     "methods": ["GET"]
   }, {
     "src": "/(.*)",
