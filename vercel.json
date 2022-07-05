@@ -6,11 +6,11 @@
     }
   },
   "routes": [{
-    "src": "/virtualHtml(.*).html",
+    "src": "/(.*).html",
     "dest": "public/$1.html", 
     "methods": ["GET"]
   }, {
-    "src": "/virtualJs/(css|js)/(.*)",
+    "src": "/(css|js)/(.*)",
     "dest": "public/$1/$2",
     "methods": ["GET"]
   }, {
