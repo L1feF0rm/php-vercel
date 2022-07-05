@@ -7,11 +7,11 @@
   },
   "routes": [{
     "src": "/(.*).html",
-    "dest": "public/$1.html", 
+    "dest": "publics/$1.html", 
     "methods": ["GET"]
   }, {
     "src": "/(css|js)/(.*)",
-    "dest": "public/$1/$2",
+    "dest": "publics/$1/$2",
     "methods": ["GET"]
   }, {
     "src": "/(.*)",
